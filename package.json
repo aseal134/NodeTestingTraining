@@ -1,14 +1,11 @@
 {
-  "name": "nodejs-testing-examples",
+  "name": "basic-module-testing",
   "version": "0.1.0",
-  "description": "A repository to provide examples of how you can test Node.js",
+  "description": "Simple example of testing with the assert module",
   "main": "index.js",
   "private": true,
   "scripts": {
-    "basic-test": "node ./basic-module-testing/test/index.js",
-    "express-test": "mocha ./express-application-testing/test -R spec",
-    "mocha-test": "mocha ./module-testing-with-mocha/index.js -R spec",
-    "proxyquire-test": "mocha ./proxyquire-dependency-mocks/test/index.js -R spec"
+    "test": "node ./test/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,15 +16,5 @@
   "bugs": {
     "url": "https://github.com/evanshortiss/nodejs-testing-examples/issues"
   },
-  "homepage": "https://github.com/evanshortiss/nodejs-testing-examples",
-  "dependencies": {
-    "body-parser": "^1.14.1",
-    "express": "^4.13.3",
-    "request": "^2.65.0"
-  },
-  "devDependencies": {
-    "chai": "^3.4.0",
-    "mocha": "^2.5.3",
-    "proxyquire": "^1.7.3"
-  }
+  "homepage": "https://github.com/evanshortiss/nodejs-testing-examples"
 }
